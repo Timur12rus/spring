@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e04ab7c-fd3b-4157-858e-602e3dd7f330" name="Changes" comment="Dependency Injection Spring with properties file. Two beans: ClassicalMusic and RockMusic">
+    <list default="true" id="5e04ab7c-fd3b-4157-858e-602e3dd7f330" name="Changes" comment="Bean scope and factory method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/timgapps/springcourse/ClassicalMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/timgapps/springcourse/ClassicalMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/timgapps/springcourse/RockMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/timgapps/springcourse/RockMusic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/timgapps/springcourse/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/timgapps/springcourse/TestSpring.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
@@ -23,7 +23,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/master" />
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -104,7 +112,7 @@
       <workItem from="1680240440296" duration="2036000" />
       <workItem from="1680773316177" duration="490000" />
       <workItem from="1680851728754" duration="5508000" />
-      <workItem from="1680892674574" duration="1217000" />
+      <workItem from="1680892674574" duration="3282000" />
     </task>
     <task id="LOCAL-00001" summary="Dependency Injection Spring with properties file. Two beans: ClassicalMusic and RockMusic">
       <created>1679824177302</created>
@@ -113,14 +121,33 @@
       <option name="project" value="LOCAL" />
       <updated>1679824177302</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Bean scope and factory method">
+      <created>1680897846705</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680897846705</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Dependency Injection Spring with properties file. Two beans: ClassicalMusic and RockMusic" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dependency Injection Spring with properties file. Two beans: ClassicalMusic and RockMusic" />
+    <MESSAGE value="Bean scope and factory method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bean scope and factory method" />
   </component>
 </project>
