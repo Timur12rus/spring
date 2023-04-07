@@ -10,14 +10,18 @@
     <context:property-placeholder location="classpath:musicPlayer.properties"/>
 
     <bean id="musicBean"
-          class="com.timgapps.springcourse.ClassicalMusic">
+          class="com.timgapps.springcourse.ClassicalMusic"
+          init-method="doMyInit"
+          destroy-method="doMyDestroy"
+          factory-method="getClassicalMusic">
     </bean>
 
     <bean id="musicPlayer"
-          class="com.timgapps.springcourse.MusicPlayer">
+          class="com.timgapps.springcourse.MusicPlayer"
+          scope="prototype">
         <property name="music" ref="musicBean"/>
 
-        <property name="name" value="${musicPlayer.name}"/>
+        <property name="name" value="Some name"/>
         <property name="volume" value="${musicPlayer.volume}"/>
     </bean>
 
